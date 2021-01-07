@@ -6,3 +6,6 @@ vscode:
 tasks:
 - init: source ./gitpod_init.sh
 - command: source ./gitpod_command.sh
+github:
+  prebuilds: 
+    branches: true

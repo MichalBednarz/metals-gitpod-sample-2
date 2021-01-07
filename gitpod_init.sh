@@ -1,5 +1,7 @@
  #!/bin/bash
 
+touch log.txt
+date >> log.txt
 METALS_DIR="$GITPOD_REPO_ROOT/.metals"
 APPS_DIR="$METALS_DIR/apps"
 METALS_VERSION="0.9.6"
