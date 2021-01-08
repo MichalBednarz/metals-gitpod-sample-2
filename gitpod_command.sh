@@ -7,3 +7,6 @@ mkdir -p $APPS_DIR
 
 export PATH=$PATH:/usr/local/openjdk-8/bin:$APPS_DIR
 bloop about
+
+touch log.txt
+echo $var1 >> log.txt
